@@ -1,0 +1,16 @@
+{
+  "name": "apex-welcome-bot",
+  "version": "1.0.0",
+  "description": "Telegram Welcome Bot for @APEX_DAY_bot",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": ["telegram", "bot", "cloudflare", "workers"],
+  "author": "APEX_DAY_BOT",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
